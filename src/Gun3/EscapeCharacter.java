@@ -3,7 +3,7 @@ package Gun3;
 public class EscapeCharacter {
     public static void main(String[] args) {
 
-        // \n alt satıra geçmeyi sağlıyor.
+        // \n alt satıra geçmeyi sağlıyor.dsvbfcfbhvxj
         // \t tab tuşu yerine geçiyor(boşluk)
         // sout ta " yazdırabilmek için \" kullanılır
         // sout ta \ yazdırabilmek için \\ kullanılır
