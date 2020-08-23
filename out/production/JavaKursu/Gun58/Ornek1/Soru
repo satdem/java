@@ -1,0 +1,26 @@
+1-Bölüm
+içinde taste():lezzet demek, bir interfase yazınız, double ücret
+
+2.Bölüm
+aşağıdaki metodlar olan klass ları yazınız
+AdanaKebap: marinade(),grill()
+Lahmacun:dough(),topping(),bake()
+Borsh: boil()
+Palov:fry(),boil()
+
+3.Bölüm
+menü ve hesap:TechnoCafe isimli class da ki main metodunda
+kullanıcıya menüyü sunarak kullanıcı tamam seçeneğini seçene
+kadar yemek siparişi alınız bu yemekleri bir arrayliste ekleyiniz
+
+4.Bölüm
+verilen siparişleri main de bir döngü vasıtası ile  TechnoKitchen isimli bir classa tek
+tek göndererek hazırlatınız,ve ücret bilgisini oluşturup yazdırınız
+
+
+
+
+public void taste() {
+        System.out.println(" ");
+    }
+

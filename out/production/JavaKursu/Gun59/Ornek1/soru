@@ -1,0 +1,18 @@
+1- abstract Bank sınıfını yazınız,consructor ve tostring metodu olsun.
+   void openAccount
+   void closeAccount
+   String withdraw
+   String deposit
+   String loan
+   dooble balance ekle(para yatırıp çekildiğinde değişsin)
+
+
+2- Alt 3 subclass ları yazınız. metodlarını içini
+   her bankaya özel hesap açılışındaki fakrlı belge isteklerine göre yazınız.
+
+3- BankSistem classındaki main de kullanıcıya hangi bankada hesap açmak istediğini sorunuz
+bir menü ile.İlgili bankda hesap açtıktan sonra ,yine bir menü ile para yatırıp ,çeksin,
+işlemi tamamlamak istediğinde (çıkış seçeneği ile) son bakiyesini ekrana yazdıralım
+
+
+

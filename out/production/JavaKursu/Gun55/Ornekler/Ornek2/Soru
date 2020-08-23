@@ -1,0 +1,5 @@
+1-içinde alan ve cevre ve constructor boş olan bir Şekil isimli abstract class yazınız.field name C
+2-bu classın an ve çevre abstract metodları ve tostring içinde alan ve çevrenin sonucu olan somut metodunu ,
+şekilin adını veren getName isimli ve ciz İsimli somut metodlarını ekleyiniz
+3-bu sınıflardan Dikdörtgen ve çember isimli iki class oluşturunuz
+4-bunlardan birer örnek main de çalıştırınız

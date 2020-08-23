@@ -1,0 +1,17 @@
+Bir okulun çalışanı ve öğrencilerinin kayıt altına alındğı bir program yapılmak isteniyor.
+1-Çalışanların isim,adres,Okul,Maaş ve UyeTipi(enum olacak Ogrenci ve çalışan) bilgileri vardır
+2-Öğrencilerin isim,adres,Okul,Ücret ve üyetipi(enum olacak Ogrenci ve çalışan) bilgileri vardır.
+3-Okul un isim,maxOgrenciSayisi,Öğrencileri ve Çalışanları vardır.
+
+//düşünüyorum...
+Burada nesnelerin ortak özeliklerini tekrar tekrar yazmamak için,ortak özellikleri aynı olan
+özellikleri bir sınıf yapıp,diğerlerini bundan türetebilir miyim
+
+inceleme sonucunda çalışan ve ogrencide ortak özelliklerin fazla oldugu gözüktü
+ozaman kisi isminde bir sınıfta bu ortak özellikleri toplayıp, burada ortak metodları yazıp,
+daha sonra öğrenci ve calisan sınıfın buradan türeterek az kodla yazabilirim.
+
+kişi,uyetipi,öğrenci,calışan yaptık
+okul sınıfı tanımlandı
+okula ögrenci ve calısan eklemekiçin metodları yazalım
+

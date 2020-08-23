@@ -1,0 +1,4 @@
+1-id,name,vahsi(boolean),dogumTarihi(localdate), fieldlaeri olan ve yiyeceği yemekleri
+yemekMiktari,gunlukUykuSuresi ve sesi isimlerinde abstract metodları,
+toSitring şeklinde normal metodu ve get set leri olan hayvan isminde bir abstract class yazınız
+2-Cat ve kartal seklinde iki tane extend alacak klass yazınız

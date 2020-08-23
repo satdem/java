@@ -1,0 +1,7 @@
+1-oğrenci isimli ad soyad,görevi ,şubesi olan bir class yazınız
+2-Calışan isimli ad,soyad,görevi,departmanı,olan bir sınıf yazınız
+3-Yukarıdaki sınıflardan oluşturacağınız 2 adet nesne içinde geçerli olacak kimlik
+belgesi formu oluşturacak tek bir metod yazınız
+
+3. istekteki gibi her iki sınıfın çalışacağı bir metod için
+her iki sınıfın da bir üst sınıftan üretilmesi gerekir.
