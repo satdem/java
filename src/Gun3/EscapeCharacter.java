@@ -14,6 +14,7 @@ public class EscapeCharacter {
         System.out.println("pazartesi\nsalı\nçarşamba");
         System.out.println("pazartesi \tsalı");
         System.out.println("Java");
+        System.out.println("orhan");
 
         System.out.println("\"Java\"");
         System.out.println("\\java");
