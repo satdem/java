@@ -25,11 +25,17 @@ rent'i return'leyin.*/
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-
+        System.out.println("isim:");
         String name = scan.nextLine();
+        System.out.println("oda sayısı");
         int roomCount  = scan.nextInt();
+        System.out.println("balkon varmı");
         boolean  balconyOrNo  = scan.nextBoolean();
 
+        rentApartments ra=new rentApartments();
+        int kira=ra.Kira(roomCount);
+        kira=ra.amountOfRent(balconyOrNo);
+        System.out.println("kira = " + kira);
 
     }
 }
@@ -61,25 +67,29 @@ class rentApartments{
     public void setBalconyOrNo(boolean balconyOrNo) {
         this.balconyOrNo = balconyOrNo;
     }
-    int Kira(){
-        int kira=0;
-        if(roomCount==0){
+
+    int kira=0;
+    int Kira(int setroomCount){
+        if(setroomCount==0){
             kira=1400;
         }
-        else if (roomCount==1){
+        else if (setroomCount==1){
             kira=1700;
-        }else if (roomCount==2){
+        }else if (setroomCount==2){
             kira=2200;
-        }else if (roomCount==3){
+        }else if (setroomCount==3){
             kira=2700;
         }
         return kira;
     }
-    int amountOfRent(){
-        int kira=Kira();
+    int amountOfRent(boolean balconyOrNo){
+
         if(balconyOrNo){
-            kira+=200;
+           kira+=200;
         }
+
         return kira;
     }
+
+
 }
